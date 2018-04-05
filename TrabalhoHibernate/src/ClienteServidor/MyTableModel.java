@@ -9,8 +9,8 @@ import javax.swing.event.TableModelListener;
 import javax.swing.table.AbstractTableModel;
 import javax.swing.table.TableModel;
 
-import br.univel.jshare.comum.Arquivo;
-import br.univel.jshare.comum.Cliente;
+import Comum.Arquivo;
+import Comum.Cliente;
 
 public class MyTableModel extends AbstractTableModel implements TableModel {
 

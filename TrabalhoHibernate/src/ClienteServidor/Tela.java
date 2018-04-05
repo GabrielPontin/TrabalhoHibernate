@@ -43,10 +43,10 @@ import javax.swing.JTextField;
 import javax.swing.border.EmptyBorder;
 import javax.swing.table.TableModel;
 
-import br.univel.jshare.comum.Arquivo;
-import br.univel.jshare.comum.Cliente;
-import br.univel.jshare.comum.IServer;
-import br.univel.jshare.comum.TipoFiltro;
+import Comum.Arquivo;
+import Comum.Cliente;
+import Comum.IServer;
+import Comum.TipoFiltro;
 
 public class Tela extends JFrame implements IServer {
 
@@ -130,7 +130,7 @@ public class Tela extends JFrame implements IServer {
 		contentPane.add(lblN, gbc_lblN);
 
 		txtNome = new JTextField();
-		txtNome.setText("PAULO HENRIQUE DA FONSECA BUENO");
+		txtNome.setText("GABRIEL PONTIN");
 		GridBagConstraints gbc_txtNome = new GridBagConstraints();
 		gbc_txtNome.gridwidth = 4;
 		gbc_txtNome.insets = new Insets(0, 0, 5, 5);
