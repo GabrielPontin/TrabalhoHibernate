@@ -1,5 +1,6 @@
 package Comum;
 
+
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.util.List;
@@ -7,7 +8,7 @@ import java.util.Map;
 
 public interface IServer extends Remote {
 
-	public static final String NOME_SERVICO = "JShare";
+	public static final String NOME_SERVICO = "Transfer";
 
 	/**
 	 * Recebe informações de um novo cliente.
@@ -22,6 +23,7 @@ public interface IServer extends Remote {
 	 * 
 	 * @param c
 	 * @param lista
+	 * @return 
 	 * @throws RemoteException
 	 */
 	public void publicarListaArquivos(Cliente c, List<Arquivo> lista)
