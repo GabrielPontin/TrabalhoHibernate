@@ -22,7 +22,6 @@ public interface IServer extends Remote {
 	 * 
 	 * @param c
 	 * @param lista
-	 * @return 
 	 * @throws RemoteException
 	 */
 	public void publicarListaArquivos(Cliente c, List<Arquivo> lista)
