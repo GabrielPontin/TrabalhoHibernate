@@ -32,7 +32,7 @@ public class LoginBean {
 			usuarioWeb.loga(usuario);
 			return "home";
 		}
-		facesUtils.adicionaMensagemDeErro("Login ou senha inválida.");
+		facesUtils.adicionaMensagemDeErro("Login ou senha invalida.");
 		return null;
 	}
 	
